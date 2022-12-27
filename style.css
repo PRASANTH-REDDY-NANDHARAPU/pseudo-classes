@@ -1,0 +1,93 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.card{
+    width: 400px;
+    /* height: 350px; */
+    background-color: coral;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    color: white;
+}
+
+/* pseudo elements:: */
+/* pseudo classes: */
+.card::before{
+    content:'ELON FRUIT STORE';
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+
+}
+.card::after{
+    content:'popular online fruit selling company';
+    color: white;
+    font-weight: bolder;
+    /* font-size: 30px; */
+/* ----------- above are pseudo elements----------- */
+
+
+
+}
+.card-img{
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.card:hover{
+    /* background-color: blueviolet; */
+    border: 5px solid coral;
+}
+/* ul li:first-child{
+    color: darkmagenta;
+    font-size: 20px;
+} */
+/* ul li:last-child{
+    color: green;
+    font-size: 20px;
+} */
+ul li:nth-child(even){
+    /* nth-child(even/number/odd) */
+    color: green;
+    font-size: 20px;
+} 
+
+
+
+/* a:visited{
+    color: tomato;
+
+} */
+/* a:hover{
+    color: tomato;
+
+} */
+/* a:focus{
+    color:deeppink;
+
+} */
+
+input{
+    padding: 16px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+input:focus{
+    outline: none;
+    border: 5px solid purple;
+
+}
+a:active{
+    color:black;
+    font-size: 30px;
+
+}
+/* ----------- above are pseudo classes----------- */
+
+
+
+
+
